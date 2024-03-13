@@ -1,3 +1,4 @@
+long_description=open('README.md', encoding='utf-8').read(),
 # XpiumLibraryFlutter
 
 ยินดีต้อนรับสู่ XpiumLibraryFlutter, ไลบรารีสำหรับ Robot Framework ที่ช่วยให้การทดสอบแอปพลิเคชัน Flutter ง่ายขึ้น.
