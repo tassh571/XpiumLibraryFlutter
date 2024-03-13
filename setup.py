@@ -1,3 +1,4 @@
+long_description=open('README.md', encoding='utf-8').read(),
 from setuptools import setup, find_packages
 
 setup(
