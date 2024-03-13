@@ -1,4 +1,3 @@
-long_description=open('README.md', encoding='utf-8').read(),
 from setuptools import setup, find_packages
 
 setup(
@@ -7,11 +6,11 @@ setup(
     author="Tassana Khrueawan",
     author_email="tassana.khr@gmail.com",
     description="Test Library for XpiumLibraryFlutter",
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type="text/markdown",
     url="https://github.com/tassh571/XpiumLibraryFlutter.git",
-    package_dir={'': 'src'},  # ใส่บรรทัดนี้เพื่อบอกว่าโค้ดอยู่ในโฟลเดอร์ src
-    packages=find_packages(where='src'),  # และบอกว่าโค้ดอยู่ใน src
+    package_dir={'': 'src'},
+    packages=find_packages(where='src'),
     install_requires=[
         'robotframework>=3.0', 
     ],
