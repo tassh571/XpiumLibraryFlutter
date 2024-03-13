@@ -1,3 +1,5 @@
+.. index.rst
+
 .. XpiumLibraryFlutter documentation master file, created by
    sphinx-quickstart on (date).
 
