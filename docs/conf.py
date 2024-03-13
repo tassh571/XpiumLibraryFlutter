@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.abspath('../src'))
 
 project = 'XpiumLibraryFlutter'
 author = 'Tassana Khrueawan'
-version = '0.0.1'
+version = '0.0.5'
 
 # -- General configuration ---------------------------------------------------
 
