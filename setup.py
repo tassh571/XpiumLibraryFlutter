@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="XpiumLibraryFlutter",
-    version="0.0.4",
+    version="0.0.5",
     author="Tassana Khrueawan",
     author_email="tassana.khr@gmail.com",
     description="Test Library for XpiumLibraryFlutter",
