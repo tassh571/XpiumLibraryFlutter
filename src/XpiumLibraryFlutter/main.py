@@ -1,8 +1,8 @@
 #XpiumLibraryFlutter/main.py
 # -*- coding: utf-8 -*-
+from robot.api.deco import keyword
 
 class MainClass:
-    def __init__(self):
-        print("This is the main class of XpiumLibraryFlutter")
-
-    # อื่นๆ ที่เกี่ยวข้องกับ main class
+    @keyword("Print Welcome Message")
+    def print_welcome_message(self):
+        print("Welcome to XpiumLibraryFlutter")
