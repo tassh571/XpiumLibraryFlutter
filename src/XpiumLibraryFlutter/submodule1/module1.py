@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from robot.api.deco import keyword
 
-class PrintM:
-    @keyword("XpiumA")
-    def XpiumAA(self):
+class XPrint:
+    @keyword("XPrint Log")
+    def XPrint_log(self):
         print("Hello, world! เทสภาษาไทย111")

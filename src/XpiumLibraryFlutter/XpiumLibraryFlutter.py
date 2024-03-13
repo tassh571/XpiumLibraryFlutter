@@ -2,14 +2,20 @@
 #XpiumLibraryFlutter.py
 
 from robot.api.deco import keyword
-from .submodule1 import PrintM
-from .submodule1 import Module12
+from .main import MainClass
+from .submodule1 import XPrint
+from .submodule1 import XDrint
+from .submodule2 import Module21
+from .submodule2 import Module22
 # from robot.libraries.BuiltIn import BuiltIn
 
 
 class XpiumLibraryFlutter(
-    PrintM, 
-    Module12
+    MainClass,
+    XPrint, 
+    XDrint,
+    Module21,
+    Module22
     ):
 
     # def __init__(self):
