@@ -3,6 +3,6 @@
 from robot.api.deco import keyword
 
 class PrintM:
-    @keyword("PrintTEST M")
-    def PrintTEST11(self):
+    @keyword("XpiumA")
+    def XpiumAA(self):
         print("Hello, world! เทสภาษาไทย111")

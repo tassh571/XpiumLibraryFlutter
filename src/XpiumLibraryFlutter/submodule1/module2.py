@@ -2,5 +2,5 @@
 # -*- coding: utf-8 -*-
 
 class Module12:
-    def PrintTEST12(self):
+    def CDCDCD(self):
         print("Hello, world! เทสภาษาไทย222")
