@@ -7,7 +7,10 @@ from .submodule1 import Module12
 # from robot.libraries.BuiltIn import BuiltIn
 
 
-class XpiumLibraryFlutter(PrintM, Module12):
+class XpiumLibraryFlutter(
+    PrintM, 
+    Module12
+    ):
 
     # def __init__(self):
         # self._bi = BuiltIn()
