@@ -7,7 +7,8 @@ from robot.libraries.BuiltIn import BuiltIn
 class XPrint:
 
     def __init__(self):
-        self.ne=XDrint()
+        self._ne=XDrint()
+        self._bi = BuiltIn()
 
 
     @keyword("XPrint Log")
@@ -17,7 +18,7 @@ class XPrint:
     def TestModule2(self):
         dasdsadsa = XDrint()  # สร้างอินสแตนซ์ของคลาส Module2
         dasdsadsa.CDCDCD()    # เรียกใช้เมธอด CDCDCD จากอินสแตนซ์นั้น
-        self.ne.CDCDCD()
+        self._ne.CDCDCD()
 
     def XQuit_App(self):
         """ปิดแอพปัจจุบันและปิดเซสชัน"""
